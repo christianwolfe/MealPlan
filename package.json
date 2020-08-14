@@ -1,0 +1,32 @@
+{
+  "name": "react-jwt",
+  "version": "1.0.0",
+  "description": "A boiler plate application using React, Express, Node and Mongo with JSON Web Tokens for authentication",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "install": "cd client && npm install",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaab30/react-jwt-boiler-plate.git"
+  },
+  "author": "Christian Wolfe, William Leondike",
+  "license": "mit",
+  "bugs": {
+    "url": "https://github.com/jaab30/react-jwt-boiler-plate/issues"
+  },
+  "homepage": "https://github.com/jaab30/react-jwt-boiler-plate#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "concurrently": "^5.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.20"
+  }
+}
