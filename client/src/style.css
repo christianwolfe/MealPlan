@@ -1,0 +1,26 @@
+/* NavBar Styling */
+.ui.menu:first-child {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Jumbotron/Message styling */
+.ui.message.message-container {
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0;
+    margin: 0;
+}
+/* UserForm styling */
+.form-container{
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+/* UserForm alert message */
+.ui.alertMssg {
+    margin-top: 0;
+    margin-bottom: 1em;
+    text-align: center;
+}
