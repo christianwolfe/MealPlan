@@ -1,0 +1,45 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 2017
+        },
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "node": true,
+        "es6": true
+    },
+    "rules": {
+        "no-duplicate-case":"error",
+        "no-empty":"error",
+        "no-extra-semi":"error",
+        "no-func-assign": "error",
+        "no-irregular-whitespace":"error",
+        "no-unreachable": "error",
+        "curly": "warn",
+        "dot-notation": "warn",
+        "eqeqeq": "error",
+        "no-empty-function": "error",
+        "no-multi-spaces": "error",
+        "no-mixed-spaces-and-tabs": "error",
+        "no-trailing-spaces": "error",
+        "default-case": "error",
+        "no-fallthrough": "error",
+        "no-unused-vars": "warn",
+        "no-use-before-define": "warn",
+        "no-redeclare": "error",
+        "camelcase": "warn",
+        "brace-style": "warn",
+        "indent": [
+            "error",
+            2
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+  }
