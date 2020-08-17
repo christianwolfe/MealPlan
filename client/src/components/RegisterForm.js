@@ -29,6 +29,8 @@ const RegisterForm = (props) => {
             component={renderInput}
             label="Enter Last name"
           />
+          <Field name="location" component={renderInput} label="City, State" />
+          <Field name="phoneNum" component={renderInput} label="Mobile Phone Number" />
           <Field name="email" component={renderInput} label="E-mail address" />
           {errorMessage ? (
             <Label className="alertMssg" basic color="red">
