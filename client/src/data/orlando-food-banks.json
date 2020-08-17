@@ -68,9 +68,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "Community Food & Outreach Center",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 650-0774"
           },
           "geometry": {
               "type": "Point",
@@ -80,9 +80,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "Salvation Army - Orlando, Florida",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 423-8581"
           },
           "geometry": {
               "type": "Point",
@@ -92,9 +92,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "Tree of Life Ministries",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 704-6923"
           },
           "geometry": {
               "type": "Point",
@@ -104,9 +104,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "Good Samaritan Outreach Inc",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 952-6390"
           },
           "geometry": {
               "type": "Point",
@@ -116,9 +116,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "New Covenant Church of Central Florida",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 568-1267"
           },
           "geometry": {
               "type": "Point",
@@ -128,9 +128,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "Human Crisis Center",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 294-4704"
           },
           "geometry": {
               "type": "Point",
@@ -140,9 +140,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "First Baptist Church of Pine Castle",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 855-4741"
           },
           "geometry": {
               "type": "Point",
@@ -152,9 +152,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "First Community Christian Pentecostal Church of God",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 860-8807"
           },
           "geometry": {
               "type": "Point",
@@ -164,9 +164,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "El Calvario",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 351-4151"
           },
           "geometry": {
               "type": "Point",
@@ -176,9 +176,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "Project: Vet Relief",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 295-2631"
           },
           "geometry": {
               "type": "Point",
@@ -188,9 +188,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "Catholic Charities of Central Florida - Semoran Food Pantry",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 658-1818"
           },
           "geometry": {
               "type": "Point",
@@ -200,9 +200,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "Joy Metropolitan Community Church",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 894-1081"
           },
           "geometry": {
               "type": "Point",
@@ -212,9 +212,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "Servants Heart Center Food Bank",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 447-9022"
           },
           "geometry": {
               "type": "Point",
@@ -224,9 +224,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "Viva Church - Central Campus (Food Pantry)",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 851-6464"
           },
           "geometry": {
               "type": "Point",
@@ -236,9 +236,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "Society of St. Andrew",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(800) 806-0756"
           },
           "geometry": {
               "type": "Point",
@@ -248,9 +248,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "PATI Ministries Hope Center",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 385-2722"
           },
           "geometry": {
               "type": "Point",
@@ -260,9 +260,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "Mt. Sinai Missionary Baptist Church",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 299-8820"
           },
           "geometry": {
               "type": "Point",
@@ -272,9 +272,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "Metro West Church -The Nazarene",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 293-2781"
           },
           "geometry": {
               "type": "Point",
@@ -284,9 +284,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "The Academy of Kings Food Pantry",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 906-5323"
           },
           "geometry": {
               "type": "Point",
@@ -296,9 +296,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "Central Florida Haven of Hope",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 298-2056"
           },
           "geometry": {
               "type": "Point",
@@ -308,9 +308,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "Christian Service Center - Daily Bread",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 425-2523"
           },
           "geometry": {
               "type": "Point",
@@ -320,9 +320,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "Central Florida Haven of Hope",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 298-2056"
           },
           "geometry": {
               "type": "Point",
@@ -332,9 +332,9 @@
       {
           "type": "Feature",
           "properties": {
-              "NAME": "",
+              "NAME": "Downtown Orlando Daily Bread",
               "ADDRESS": "",
-              "PHONE": ""
+              "PHONE": "(407) 425-2523"
           },
           "geometry": {
               "type": "Point",
