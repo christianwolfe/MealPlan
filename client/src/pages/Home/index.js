@@ -2,6 +2,7 @@ import React from "react";
 import { Header, Message, Button, Icon } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
+import Maps from "../Maps/Maps";
 
 export const Home = () => {
   // access to the isAuthenticated property from the auth reducer state
@@ -21,6 +22,7 @@ export const Home = () => {
   };
 
   return (
+    <>
     <div>
       <Message className="message-container" size="huge" secondary="true">
         <Header size="huge"> Home</Header>
@@ -35,6 +37,8 @@ export const Home = () => {
         <Link to="/login">{showLoginBtn()}</Link>
       </Message>
     </div>
+    <Maps />
+    </>
   );
 };
 
