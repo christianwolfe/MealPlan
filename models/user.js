@@ -10,6 +10,14 @@ const UserSchema = new Schema({
     type: String,
     require: true,
   },
+  location: {
+    type: String,
+    require: true,
+  },
+  phoneNum: {
+    type: String,
+    require: true,
+  },
   email: {
     type: String,
     require: true,
