@@ -9,7 +9,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "UP - United Against Poverty",
-              "ADDRESS": "",
+              "ADDRESS": "150 West Michigan Street, Orlando, FL - 32806",
               "PHONE": "(407) 650-0774"
           },
           "geometry": {
@@ -21,7 +21,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Second Harvest Food Bank of Central Florida",
-              "ADDRESS": "",
+              "ADDRESS": "411 Mercy Drive, Orlando, FL - 32805",
               "PHONE": "(407) 295-1066"
           },
           "geometry": {
@@ -33,7 +33,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Knights Helping Knights - University of Central Florida",
-              "ADDRESS": "",
+              "ADDRESS": "4133 Pyxis Lane, Orlando, FL - 32816",
               "PHONE": "(407) 823-3663"
           },
           "geometry": {
@@ -45,7 +45,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Prince of Peace Lutheran Church",
-              "ADDRESS": "",
+              "ADDRESS": "1515 S Semoran Boulevard, Orlando, FL - 32807",
               "PHONE": "(407) 277-3945"
           },
           "geometry": {
@@ -57,7 +57,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Christian Service Center - Love Pantry",
-              "ADDRESS": "",
+              "ADDRESS": "808 W. Central Boulevard, Orlando, FL - 32805",
               "PHONE": "(407) 425-2523"
           },
           "geometry": {
@@ -69,7 +69,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Community Food & Outreach Center",
-              "ADDRESS": "",
+              "ADDRESS": "150 W. Michigan Street, Orlando, FL - 32806",
               "PHONE": "(407) 650-0774"
           },
           "geometry": {
@@ -81,7 +81,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Salvation Army - Orlando, Florida",
-              "ADDRESS": "",
+              "ADDRESS": "416 W. Colonial Drive, Orlando, FL - 32804",
               "PHONE": "(407) 423-8581"
           },
           "geometry": {
@@ -93,7 +93,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Tree of Life Ministries",
-              "ADDRESS": "",
+              "ADDRESS": "10 Hiawassee Road South, Orlando, FL - 32808",
               "PHONE": "(407) 704-6923"
           },
           "geometry": {
@@ -105,7 +105,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Good Samaritan Outreach Inc",
-              "ADDRESS": "",
+              "ADDRESS": "900 East Lancaster Rd Suite 6, Orlando, FL - 32809",
               "PHONE": "(407) 952-6390"
           },
           "geometry": {
@@ -117,7 +117,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "New Covenant Church of Central Florida",
-              "ADDRESS": "",
+              "ADDRESS": "990 Belvedere Road, Orlando, FL - 32820",
               "PHONE": "(407) 568-1267"
           },
           "geometry": {
@@ -129,7 +129,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Human Crisis Center",
-              "ADDRESS": "",
+              "ADDRESS": "5514 Edgewater Drive, Orlando, FL - 32810",
               "PHONE": "(407) 294-4704"
           },
           "geometry": {
@@ -141,7 +141,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "First Baptist Church of Pine Castle",
-              "ADDRESS": "",
+              "ADDRESS": "1001 Hoffner Avenue, Orlando, FL - 32809",
               "PHONE": "(407) 855-4741"
           },
           "geometry": {
@@ -153,7 +153,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "First Community Christian Pentecostal Church of God",
-              "ADDRESS": "",
+              "ADDRESS": "827 West Lancaster Road, Orlando, FL - 32805",
               "PHONE": "(407) 860-8807"
           },
           "geometry": {
@@ -165,7 +165,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "El Calvario",
-              "ADDRESS": "",
+              "ADDRESS": "2500 West Oak Ridge Road, Orlando, FL - 32809",
               "PHONE": "(407) 351-4151"
           },
           "geometry": {
@@ -177,7 +177,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Project: Vet Relief",
-              "ADDRESS": "",
+              "ADDRESS": "1912A Lee Road, Orlando, FL - 32810",
               "PHONE": "(407) 295-2631"
           },
           "geometry": {
@@ -189,7 +189,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Catholic Charities of Central Florida - Semoran Food Pantry",
-              "ADDRESS": "",
+              "ADDRESS": "1819 North Semoran Boulevard, Orlando, FL - 32807",
               "PHONE": "(407) 658-1818"
           },
           "geometry": {
@@ -201,7 +201,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Joy Metropolitan Community Church",
-              "ADDRESS": "",
+              "ADDRESS": "2351 South Ferncreek Avenue, Orlando, FL - 32806",
               "PHONE": "(407) 894-1081"
           },
           "geometry": {
@@ -213,7 +213,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Servants Heart Center Food Bank",
-              "ADDRESS": "",
+              "ADDRESS": "6109 Anno Avenue, Orlando, FL - 32809",
               "PHONE": "(407) 447-9022"
           },
           "geometry": {
@@ -225,7 +225,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Viva Church - Central Campus (Food Pantry)",
-              "ADDRESS": "",
+              "ADDRESS": "653 Wetherbee Road, Orlando, FL - 32824",
               "PHONE": "(407) 851-6464"
           },
           "geometry": {
@@ -237,7 +237,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Society of St. Andrew",
-              "ADDRESS": "",
+              "ADDRESS": "406 East Amelia Street, Orlando, FL - 32803",
               "PHONE": "(800) 806-0756"
           },
           "geometry": {
@@ -249,7 +249,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "PATI Ministries Hope Center",
-              "ADDRESS": "",
+              "ADDRESS": "1840 North Goldenrod Road, Orlando, FL - 32807",
               "PHONE": "(407) 385-2722"
           },
           "geometry": {
@@ -261,7 +261,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Mt. Sinai Missionary Baptist Church",
-              "ADDRESS": "",
+              "ADDRESS": "5200 West South Street, Orlando, FL - 32811",
               "PHONE": "(407) 299-8820"
           },
           "geometry": {
@@ -273,7 +273,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Metro West Church -The Nazarene",
-              "ADDRESS": "",
+              "ADDRESS": "3705 North Apopka Vineland Road, Orlando, FL - 32818",
               "PHONE": "(407) 293-2781"
           },
           "geometry": {
@@ -285,7 +285,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "The Academy of Kings Food Pantry",
-              "ADDRESS": "",
+              "ADDRESS": "9307 Curry Ford Road, Orlando, FL - 32825",
               "PHONE": "(407) 906-5323"
           },
           "geometry": {
@@ -297,7 +297,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Central Florida Haven of Hope",
-              "ADDRESS": "",
+              "ADDRESS": "1310 West Colonial Drive, Orlando, FL - 32804",
               "PHONE": "(407) 298-2056"
           },
           "geometry": {
@@ -309,7 +309,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Christian Service Center - Daily Bread",
-              "ADDRESS": "",
+              "ADDRESS": "808 West Central Boulevard, Orlando, FL - 32805",
               "PHONE": "(407) 425-2523"
           },
           "geometry": {
@@ -321,7 +321,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Central Florida Haven of Hope",
-              "ADDRESS": "",
+              "ADDRESS": "1310 West Colonial Drive, Orlando, FL - 32804",
               "PHONE": "(407) 298-2056"
           },
           "geometry": {
@@ -333,7 +333,7 @@
           "type": "Feature",
           "properties": {
               "NAME": "Downtown Orlando Daily Bread",
-              "ADDRESS": "",
+              "ADDRESS": "24 Glenn Lane, Orlando, FL - 32805",
               "PHONE": "(407) 425-2523"
           },
           "geometry": {
