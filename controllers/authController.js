@@ -6,14 +6,34 @@ const User = require("../models/user");
 module.exports = {
   async register(req, res) {
     try {
-      const { email, password, firstname, lastname } = req.body;
+      const {
+        email,
+        password,
+        firstname,
+        lastname,
+        location,
+        phoneNum,
+      } = req.body;
       // Check user enters all fields
-      if (!email || !password || !firstname || !lastname)
+      if (
+        !email ||
+        !password ||
+        !firstname ||
+        !lastname ||
+        !location ||
+        !phoneNum
+      )
         return res.status(400).json({ message: "Please enter all fields" });
       // Check the user enters the right formatted email
       const reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
       if (reg.test(email) === false)
         return res.status(400).json({ message: "Incorrect email format" });
+      // Check the user enters the right formatted phone number
+      const phoneReg = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+      if (phoneReg.test(phoneNum) === false)
+        return res
+          .status(400)
+          .json({ message: "Incorrect phone number format" });
       // Check user password length is more than 8 characters
       if (password.length < 6)
         return res
@@ -24,6 +44,8 @@ module.exports = {
       const newUser = new User({
         firstname,
         lastname,
+        location,
+        phoneNum,
         email,
         password,
       });

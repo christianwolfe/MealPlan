@@ -32,6 +32,7 @@ const RegisterForm = (props) => {
           <Field name="location" component={renderInput} label="City, State" />
           <Field name="phoneNum" component={renderInput} label="Mobile Phone Number" />
           <Field name="email" component={renderInput} label="E-mail address" />
+          <Field name="password" component={renderInput} label="Password" />
           {errorMessage ? (
             <Label className="alertMssg" basic color="red">
               {errorMessage}
@@ -39,7 +40,6 @@ const RegisterForm = (props) => {
           ) : (
             ""
           )}
-          <Field name="password" component={renderInput} label="Password" />
           <Button secondary fluid size="large">
             {props.buttonText}
           </Button>
@@ -55,7 +55,10 @@ const renderInput = ({ input, label }) => {
     if (
       input.name === "email" ||
       input.name === "firstname" ||
-      input.name === "lastname"
+      input.name === "lastname" ||
+      input.name === "phoneNum" ||
+      input.name === "location" 
+
     ) {
       return "user icon";
     } else {
