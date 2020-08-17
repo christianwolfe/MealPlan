@@ -1,0 +1,345 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "UP - United Against Poverty",
+              "ADDRESS": "",
+              "PHONE": "(407) 650-0774"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Second Harvest Food Bank of Central Florida",
+              "ADDRESS": "",
+              "PHONE": "(407) 295-1066"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Knights Helping Knights - University of Central Florida",
+              "ADDRESS": "",
+              "PHONE": "(407) 823-3663"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Prince of Peace Lutheran Church",
+              "ADDRESS": "",
+              "PHONE": "(407) 277-3945"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Christian Service Center - Love Pantry",
+              "ADDRESS": "",
+              "PHONE": "(407) 425-2523"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "",
+              "ADDRESS": "",
+              "PHONE": ""
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": []
+          }
+      }
+  ]
+}
