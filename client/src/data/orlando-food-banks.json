@@ -1,0 +1,387 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "UP - United Against Poverty",
+              "ADDRESS": "150 West Michigan Street, Orlando, FL - 32806",
+              "PHONE": "(407) 650-0774",
+              "WEBSITE": "http://communityfoodoutreach.org",
+              "DESCRIPTION": "Emergency Food Pantry bags DFC/ACCESS site for Food Stamps Cost Share Grocery Program."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.512880, -81.379946]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Second Harvest Food Bank of Central Florida",
+              "ADDRESS": "411 Mercy Drive, Orlando, FL - 32805",
+              "PHONE": "(407) 295-1066",
+              "WEBSITE": "http://www.feedhopenow.org",
+              "DESCRIPTION": "Serves: Orlando (Brevard, Lake, Orange, Osceola, Seminole & Volusia Counties)."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.548456, -81.429465]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Knights Helping Knights - University of Central Florida",
+              "ADDRESS": "4133 Pyxis Lane, Orlando, FL - 32816",
+              "PHONE": "(407) 823-3663",
+              "WEBSITE": "http://studentunion.ucf.edu/knights-pantry",
+              "DESCRIPTION": "The KHK Pantry is food Pantry open to all UCF students who may be affected by/or are currently suffering from food insufficiencies. The KHK Pantry is NOT a Community Food Bank as it's only opened to UCF students."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.597948, -81.199067]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Prince of Peace Lutheran Church",
+              "ADDRESS": "1515 S Semoran Boulevard, Orlando, FL - 32807",
+              "PHONE": "(407) 277-3945",
+              "WEBSITE": "http://www.poporlando.com",
+              "DESCRIPTION": "The Prince of Peace Lutheran Church Food Pantry is located in the Bickel Building on the east side of the church property (enter from Curry Ford Road). The pantry is able to provide groceries to over 300 families from Orange County each month. Families are provided food amounts based upon the number of persons in the family."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.524112, -81.309565]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Christian Service Center - Love Pantry",
+              "ADDRESS": "808 W. Central Boulevard, Orlando, FL - 32805",
+              "PHONE": "(407) 425-2523",
+              "WEBSITE": "http://www.christianservicecenter.org",
+              "DESCRIPTION": "Food services for homeless and low-income persons in Orange county."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.541977, -81.390954]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Community Food & Outreach Center",
+              "ADDRESS": "150 W. Michigan Street, Orlando, FL - 32806",
+              "PHONE": "(407) 650-0774",
+              "WEBSITE": "http://communityfoodoutreach.org",
+              "DESCRIPTION": "Food pantry serving Orange, Osceola and Seminole counties. The Community Food & Outreach Center provides a range of services to our clients who are struggling through unemployment, hunger, housing difficulties, and more."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.512899, -81.380051]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Salvation Army - Orlando, Florida",
+              "ADDRESS": "416 W. Colonial Drive, Orlando, FL - 32804",
+              "PHONE": "(407) 423-8581",
+              "WEBSITE": "http://salvationarmyorlando.org",
+              "DESCRIPTION": "Food pantry serving Orange county."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.552851, -81.384856]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Tree of Life Ministries",
+              "ADDRESS": "10 Hiawassee Road South, Orlando, FL - 32808",
+              "PHONE": "(407) 704-6923",
+              "WEBSITE": "We currently do not have a website for Tree of Life Ministries",
+              "DESCRIPTION": "Provides a food pantry. Serves: Orange County residents with neither health insurance, nor a residence in your name."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.540653, -81.476712]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Good Samaritan Outreach Inc",
+              "ADDRESS": "900 East Lancaster Road Suite 900, Orlando, FL - 32809",
+              "PHONE": "(407) 952-6390",
+              "WEBSITE": "http://thegoodsamaritanoutr.wixsite.com/g-s-o",
+              "DESCRIPTION": "Good Samaritan Outreach have been providing for it's community since 1998, with two different locations we are 501 c 3 not-for-profit organization reaching the least the last and the lost with hope."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.465066, -81.391276]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "New Covenant Church of Central Florida",
+              "ADDRESS": "990 Belvedere Road, Orlando, FL - 32820",
+              "PHONE": "(407) 568-1267",
+              "WEBSITE": "We currently do not have a website for New Covenant Church of Central Florida",
+              "DESCRIPTION": "Provides a food pantry."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.559301, -81.114227]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Human Crisis Center",
+              "ADDRESS": "5514 Edgewater Drive, Orlando, FL - 32810",
+              "PHONE": "(407) 294-4704",
+              "WEBSITE": "http://www.humancrisiscenter.org",
+              "DESCRIPTION": "A non profit organization serving the poor, needy and homeless for over 20 years."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.608366, -81.412874]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "First Baptist Church of Pine Castle",
+              "ADDRESS": "1001 Hoffner Avenue, Orlando, FL - 32809",
+              "PHONE": "(407) 855-4741",
+              "WEBSITE": "http://www.fbcpinecastle.com",
+              "DESCRIPTION": "Provides a food pantry."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.476180, -81.365713]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "First Community Christian Pentecostal Church of God",
+              "ADDRESS": "827 West Lancaster Road, Orlando, FL - 32805",
+              "PHONE": "(407) 860-8807",
+              "WEBSITE": "We currently do not have a website for First Community Christian Pentecostal Church of God",
+              "DESCRIPTION": "Provides a food pantry."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.465875, -81.390503]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "El Calvario",
+              "ADDRESS": "2500 West Oak Ridge Road, Orlando, FL - 32809",
+              "PHONE": "(407) 351-4151",
+              "WEBSITE": "https://www.cccorl.org",
+              "DESCRIPTION": "Provides a food pantry."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.471121, -81.412305]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Project: Vet Relief",
+              "ADDRESS": "1912A Lee Road, Orlando, FL - 32810",
+              "PHONE": "(407) 295-2631",
+              "WEBSITE": "https://www.projectvetrelief.org",
+              "DESCRIPTION": "Provides a food pantry."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.600894, -81.410126]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Catholic Charities of Central Florida - Semoran Food Pantry",
+              "ADDRESS": "1819 North Semoran Boulevard, Orlando, FL - 32807",
+              "PHONE": "(407) 658-1818",
+              "WEBSITE": "http://cflcc.org",
+              "DESCRIPTION": "Provides a food pantry."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.569442, -81.310263]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Joy Metropolitan Community Church",
+              "ADDRESS": "2351 South Ferncreek Avenue, Orlando, FL - 32806",
+              "PHONE": "(407) 894-1081",
+              "WEBSITE": "We currently do not have a website for Joy Metropolitan Community Church",
+              "DESCRIPTION": "Provides a food pantry. Documentation Required: photo ID, state or drivers license and it can be out of state as long as picture matches the person presenting it."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.516108, -81.359538]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Servants Heart Center Food Bank",
+              "ADDRESS": "6109 Anno Avenue, Orlando, FL - 32809",
+              "PHONE": "(407) 447-9022",
+              "WEBSITE": "http://www.servantsheartministry.org",
+              "DESCRIPTION": "Servants Heart Center has been feeding the needy in our community for over 16 years. We deliver to over 1,600 families per month. Turkey's cost about $10 each. We deliver to needy families every week. We screen everyone to separate the needy from the greedy. Please stop by and drop off or send a donation and if you can........ please ........volunteer your time."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.469748, -81.371469]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Viva Church - Central Campus (Food Pantry)",
+              "ADDRESS": "653 East Wetherbee Road, Orlando, FL - 32824",
+              "PHONE": "(407) 851-6464",
+              "WEBSITE": "https://tryvivachurch.com",
+              "DESCRIPTION": "We provide families groceries."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.393521, -81.365084]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Society of St. Andrew",
+              "ADDRESS": "406 East Amelia Street, Orlando, FL - 32803",
+              "PHONE": "(800) 806-0756",
+              "WEBSITE": "http://endhunger.org",
+              "DESCRIPTION": "America’s Premier Food Rescue and Distribution Ministry"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.549371, -81.372325]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "PATI Ministries Hope Center",
+              "ADDRESS": "1840 North Goldenrod Road, Orlando, FL - 32807",
+              "PHONE": "(407) 385-2722",
+              "WEBSITE": "http://www.generaciondefe.com",
+              "DESCRIPTION": "The Hope Center is a non profit community assistance program that provides low cost groceries and household items to qualifying families and individuals. Qualification is based on income/financial situation. PATI Ministries is a ministry of Generacion de Fe Church"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.572809, -81.288214]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Mt. Sinai Missionary Baptist Church",
+              "ADDRESS": "5200 West South Street, Orlando, FL - 32811",
+              "PHONE": "(407) 299-8820",
+              "WEBSITE": "We currently do not have a website for Mt. Sinai Missionary Baptist Church",
+              "DESCRIPTION": "The actual location is 311 Ring Road, Orlando, FL 32811. This is located behind the church but because it runs a school you are NOT allowed to go through the church parking lot unless you are walking. If you are in a car you have to go to Ring Road."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.537610, -81.448385]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Metro West Church -The Nazarene",
+              "ADDRESS": "3705 North Apopka Vineland Road, Orlando, FL - 32818",
+              "PHONE": "(407) 293-2781",
+              "WEBSITE": "https://metrowestchurch.org",
+              "DESCRIPTION": "Provides a food pantry."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.588406, -81.494985]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "The Academy of Kings Food Pantry",
+              "ADDRESS": "9307 Curry Ford Road, Orlando, FL - 32825",
+              "PHONE": "(407) 906-5323",
+              "WEBSITE": "We currently do not have a website for The Academy of Kings Food Pantry",
+              "DESCRIPTION": "We are a non profit organization with a mission to strengthen families and uplift communities. We desire to do this through education, intervention/prevention, and spiritual guidance, while fostering innovative support and grooming family leaders. Call for food pantry details."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.512664, -81.254841]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Central Florida Haven of Hope",
+              "ADDRESS": "1310 West Colonial Drive, Orlando, FL - 32804",
+              "PHONE": "(407) 298-2056",
+              "WEBSITE": "http://www.cflhavenofhope.com",
+              "DESCRIPTION": "AIDS info, anonymous counseling, and food pantry."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.552528, -81.398121]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Christian Service Center - Daily Bread",
+              "ADDRESS": "808 West Central Boulevard, Orlando, FL - 32805",
+              "PHONE": "(407) 425-2523",
+              "WEBSITE": "http://www.christianservicecenter.org",
+              "DESCRIPTION": "Financial assistance and Mothers helping hands, transportation, utility assistance. The Daily Bread program offers a free nourishing noontime meal to anyone who is hungry in Central Florida. The Daily Bread kitchen serves meals six days every week at no cost to the consumer. The Family & Emergency Services program can provide pantry food items and clothing vouchers to individuals and families who qualify for assistance."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.541902, -81.390933]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "NAME": "Downtown Orlando Daily Bread",
+              "ADDRESS": "24 Glenn Lane, Orlando, FL - 32805",
+              "PHONE": "(407) 425-2523",
+              "WEBSITE": "https://www.christianservicecenter.org/downtownorlando",
+              "DESCRIPTION": "Christian Service Center. Food Pantry located behind the administrative building located on Central Blvd. Food Pantry Hours: Free lunch is served six days a week."
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [28.541292, -81.390793]
+          }
+      }
+  ]
+}
