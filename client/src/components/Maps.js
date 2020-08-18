@@ -6,7 +6,7 @@ import {
   Marker,
   InfoWindow,
 } from "react-google-maps";
-import * as bankData from "../../data/orlando-food-banks.json"
+import * as bankData from "../data/orlando-food-banks.json"
 
 const GoogMap = () => {
   return (
