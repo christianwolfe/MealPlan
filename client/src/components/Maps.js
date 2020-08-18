@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   withGoogleMap,
   withScriptjs,
@@ -9,9 +9,11 @@ import {
 import * as bankData from "../data/orlando-food-banks.json";
 
 const GoogMap = () => {
+  const [selectedBank, setSelectedBank] = useState(null);
+
   return (
     <GoogleMap
-      defaultZoom={12}
+      defaultZoom={10}
       defaultCenter={{ lat: 28.538336, lng: -81.379234 }}
     >
       {bankData.features.map((bank) => (
@@ -19,10 +21,30 @@ const GoogMap = () => {
           key={bank.properties.BANK_ID}
           position={{
             lat: bank.geometry.coordinates[0],
-            lng: bank.geometry.coordinates[1]
+            lng: bank.geometry.coordinates[1],
+          }}
+          onClick={() => {
+            setSelectedBank(bank);
           }}
         />
       ))}
+      {selectedBank && (
+        <InfoWindow
+          position={{
+            lat: selectedBank.geometry.coordinates[0],
+            lng: selectedBank.geometry.coordinates[1],
+          }}
+          onCloseClick={() => {
+            setSelectedBank(null);
+          }}
+        >
+          <div>
+            <h4>{selectedBank.properties.NAME}</h4>
+            <p>{selectedBank.properties.PHONE}</p>
+            <p>{selectedBank.properties.ADDRESS}</p>
+          </div>
+        </InfoWindow>
+      )}
     </GoogleMap>
   );
 };
