@@ -18,8 +18,8 @@ const GoogMap = () => {
         <Marker
           key={bank.properties.BANK_ID}
           position={{
-            lat: bank.geometry.coordinates[1],
-            lng: bank.geometry.coordinates[0],
+            lat: bank.geometry.coordinates[0],
+            lng: bank.geometry.coordinates[1]
           }}
         />
       ))}
