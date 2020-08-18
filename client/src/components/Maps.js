@@ -38,7 +38,11 @@ const GoogMap = () => {
             setSelectedBank(null);
           }}
         >
-          <div></div>
+          <div>
+            <h4>{selectedBank.properties.NAME}</h4>
+            <p>{selectedBank.properties.PHONE}</p>
+            <p>{selectedBank.properties.ADDRESS}</p>
+          </div>
         </InfoWindow>
       )}
     </GoogleMap>
