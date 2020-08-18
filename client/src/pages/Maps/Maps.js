@@ -6,6 +6,7 @@ import {
   Marker,
   InfoWindow,
 } from "react-google-maps";
+import * as bankData from "../../data/orlando-food-banks.json"
 
 const GoogMap = () => {
   return (
@@ -27,6 +28,7 @@ const Map = () => {
         containerElement={<div style={{ height: `100%` }} />}
         mapElement={<div style={{ height: `100%` }} />}
       >
+
       </MapWrapped>
     </div>
   );
