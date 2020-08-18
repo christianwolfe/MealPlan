@@ -16,7 +16,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.512880, -81.379946]
           }
       },
       {
@@ -30,7 +30,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.548456, -81.429465]
           }
       },
       {
@@ -44,7 +44,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.597948, -81.199067]
           }
       },
       {
@@ -58,7 +58,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.524112, -81.309565]
           }
       },
       {
@@ -72,7 +72,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.541977, -81.390954]
           }
       },
       {
@@ -86,7 +86,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.512899, -81.380051]
           }
       },
       {
@@ -100,7 +100,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.552851, -81.384856]
           }
       },
       {
@@ -114,21 +114,21 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.540653, -81.476712]
           }
       },
       {
           "type": "Feature",
           "properties": {
               "NAME": "Good Samaritan Outreach Inc",
-              "ADDRESS": "900 East Lancaster Rd Suite 6, Orlando, FL - 32809",
+              "ADDRESS": "900 East Lancaster Road Suite 900, Orlando, FL - 32809",
               "PHONE": "(407) 952-6390",
               "WEBSITE": "http://thegoodsamaritanoutr.wixsite.com/g-s-o",
               "DESCRIPTION": "Good Samaritan Outreach have been providing for it's community since 1998, with two different locations we are 501 c 3 not-for-profit organization reaching the least the last and the lost with hope."
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.465066, -81.391276]
           }
       },
       {
@@ -142,7 +142,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.559301, -81.114227]
           }
       },
       {
@@ -156,7 +156,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.608366, -81.412874]
           }
       },
       {
@@ -170,7 +170,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.476180, -81.365713]
           }
       },
       {
@@ -184,7 +184,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.465875, -81.390503]
           }
       },
       {
@@ -198,7 +198,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.471121, -81.412305]
           }
       },
       {
@@ -212,7 +212,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.600894, -81.410126]
           }
       },
       {
@@ -226,7 +226,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.569442, -81.310263]
           }
       },
       {
@@ -240,7 +240,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.516108, -81.359538]
           }
       },
       {
@@ -254,21 +254,21 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.469748, -81.371469]
           }
       },
       {
           "type": "Feature",
           "properties": {
               "NAME": "Viva Church - Central Campus (Food Pantry)",
-              "ADDRESS": "653 Wetherbee Road, Orlando, FL - 32824",
+              "ADDRESS": "653 East Wetherbee Road, Orlando, FL - 32824",
               "PHONE": "(407) 851-6464",
               "WEBSITE": "https://tryvivachurch.com",
               "DESCRIPTION": "We provide families groceries."
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.393521, -81.365084]
           }
       },
       {
@@ -282,7 +282,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.549371, -81.372325]
           }
       },
       {
@@ -296,7 +296,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.572809, -81.288214]
           }
       },
       {
@@ -310,7 +310,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.537610, -81.448385]
           }
       },
       {
@@ -324,7 +324,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.588406, -81.494985]
           }
       },
       {
@@ -338,7 +338,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.512664, -81.254841]
           }
       },
       {
@@ -352,7 +352,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.552528, -81.398121]
           }
       },
       {
@@ -366,7 +366,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.541902, -81.390933]
           }
       },
       {
@@ -380,7 +380,7 @@
           },
           "geometry": {
               "type": "Point",
-              "coordinates": []
+              "coordinates": [28.541292, -81.390793]
           }
       }
   ]
