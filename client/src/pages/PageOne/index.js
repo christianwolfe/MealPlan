@@ -5,9 +5,9 @@ import Locations from "../../components/Locations";
 export const PageOne = () => {
   return (
     <>
-      <Message className="message-container" size="huge" secondary="true">
-        <Header size="huge"> Page One </Header>
-        <p>This is a Protected Route</p>
+      <Message className="container message-container" size="huge" secondary="true" style={{margin:"5px"}}>
+        <Header size="huge"> MealPlan </Header>
+        <p>Select a location and reserve a time</p>
       </Message>
       <Locations />
     </>
