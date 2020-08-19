@@ -32,7 +32,7 @@ export const NavBar = () => {
   };
 
   return (
-    <div className="ui inverted menu">
+    <div className="container ui inverted menu">
       <Link to="/" className="item">
         Home
       </Link>
