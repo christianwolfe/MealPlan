@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import * as Banks from "../data/orlando-food-banks.json";
-import { Accordion, Icon } from 'semantic-ui-react'
+import { Accordion, Icon, Grid, Container} from 'semantic-ui-react'
 
 // class Locations extends Component { 
 
@@ -32,8 +32,8 @@ export default class AccordionStyled extends Component {
         return (
             this.state.results.map((data, i) => {
                 return (
-
-                    <Accordion styled>
+                    <Container>
+                    <Accordion styled fluid>
                         <Accordion.Title
                             active={activeIndex === i}
                             index={i}
@@ -52,6 +52,8 @@ export default class AccordionStyled extends Component {
                             </p>
                         </Accordion.Content>
                     </Accordion>
+                   
+                    </Container>
                 )
             })
         )
