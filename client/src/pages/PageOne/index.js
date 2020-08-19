@@ -1,5 +1,6 @@
 import React from "react";
 import { Header, Message } from "semantic-ui-react";
+import Locations from "../../components/Locations";
 
 export const PageOne = () => {
   return (
@@ -8,6 +9,7 @@ export const PageOne = () => {
         <Header size="huge"> Page One </Header>
         <p>This is a Protected Route</p>
       </Message>
+      <Locations />
     </>
   );
 };
