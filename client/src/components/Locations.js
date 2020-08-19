@@ -1,15 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import * as Banks from "../data/orlando-food-banks.json";
 import { Accordion, Icon, Grid, Container} from 'semantic-ui-react'
-
-// class Locations extends Component { 
-
-//why dont we need render(){?
-// client/src/index.js?  
-
-function checkWeb() {
-    
-}
+import Modal from "./Modal";
 
 export default class AccordionStyled extends Component {
 
@@ -23,9 +15,7 @@ export default class AccordionStyled extends Component {
 
         this.setState({ activeIndex: newIndex })
     }
-    fetchData = () => {
-        //api call to GET all info from /data/, then set state of results to whatever is being retrieved
-    }
+    
     render() {
         console.log(Banks.default.features)
         const { activeIndex } = this.state
@@ -33,7 +23,7 @@ export default class AccordionStyled extends Component {
             this.state.results.map((data, i) => {
                 return (
                     <Container>
-                    <Accordion styled fluid>
+                      <Accordion styled fluid>
                         <Accordion.Title
                             active={activeIndex === i}
                             index={i}
@@ -47,18 +37,13 @@ export default class AccordionStyled extends Component {
                             <p> <Icon name="phone" /> {data.properties.PHONE}</p>
                             <Icon name="globe" /><a href={data.properties.WEBSITE} target="_blank">{data.properties.WEBSITE}</a>
                             <hr/>
-                            <p>
-                                {data.properties.DESCRIPTION}
-                            </p>
+                            <p>{data.properties.DESCRIPTION}</p>
+                            <Modal />
                         </Accordion.Content>
-                    </Accordion>
-                   
+                      </Accordion>
                     </Container>
                 )
             })
         )
     };
 };
-
-
-    //cannot wrap render or return of the component in to a function
