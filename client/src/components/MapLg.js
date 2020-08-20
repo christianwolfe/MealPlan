@@ -13,7 +13,7 @@ const GoogMap = () => {
 
   return (
     <GoogleMap
-      defaultZoom={10}
+      defaultZoom={11}
       defaultCenter={{ lat: 28.538336, lng: -81.379234 }}
     >
       {bankData.features.map((bank) => (
