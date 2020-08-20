@@ -24,9 +24,7 @@ export const Home = () => {
   };
 
   return (
-    <Container textAlign='center'>
-
-      <div>
+      <Container>
         <Message className="message-container" size="huge" secondary="true">
           <Header size="huge"> Home</Header>
           <p style={{ marginBottom: "5px" }}>
@@ -39,12 +37,12 @@ export const Home = () => {
         </p>
           <Link to="/login">{showLoginBtn()}</Link>
         </Message>
-      </div>
-      <Container style={{ alignItems: "center"}}>
-        <MapLg style={{ alignItems: "center"}} />
-      </Container>
 
-    </Container>
+        <MapLg />
+      </Container>
+      
+
+  
   );
 };
 

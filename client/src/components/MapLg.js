@@ -53,7 +53,7 @@ const MapWrapped = withScriptjs(withGoogleMap(GoogMap));
 
 const MapLg = () => {
   return (
-    <div style={{ justifyContent: "center", width: "75vw", height: "45vh" }}>
+    <div style={{width: "100%", height:"45vh", marginTop:"5px", marginBottom:"5px"}}>
       <MapWrapped
         googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_API_KEY}`}
         loadingElement={<div style={{ height: `100%` }} />}
