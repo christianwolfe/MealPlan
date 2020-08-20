@@ -2,12 +2,17 @@ import React, { useState } from "react";
 import DatePicker from "react-datepicker";
 import setHours from "date-fns/setHours";
 import setMinutes from "date-fns/setMinutes";
+import getDay from "date-fns/getDay";
 import "react-datepicker/dist/react-datepicker.css";
 
-class DateTimePicker extends React.Component {
+const isWeekday = (date) => {
+  const day = getDay(date);
+  return day !== 0 && day !== 6;
+};
 
+class DateTimePicker extends React.Component {
   state = {
-    startDate: '',
+    startDate: "",
   };
 
   handleChange = (date) => {
@@ -15,11 +20,6 @@ class DateTimePicker extends React.Component {
       startDate: date,
     });
   };
-
-//   const isWeekday = date => {
-//     const day = getDay(date);
-//     return day !== 0 && day !== 6;
-//   };
 
   render() {
     return (
@@ -32,7 +32,7 @@ class DateTimePicker extends React.Component {
         minTime={setHours(setMinutes(new Date(), 0), 9)}
         maxTime={setHours(setMinutes(new Date(), 0), 17)}
         placeholderText="Reserve a time"
-        // filterDate={isWeekday}
+        filterDate={isWeekday}
       />
     );
   }
