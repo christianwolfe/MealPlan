@@ -26,6 +26,10 @@ const UserSchema = new Schema({
     type: String,
     require: true,
   },
+  lastreservation: {
+    type: String,
+
+  }
 });
 
 module.exports = User = mongoose.model("user", UserSchema);

@@ -39,7 +39,7 @@ export default class AccordionStyled extends Component {
                             <Icon name="globe" /><a href={data.properties.WEBSITE} target="_blank">{data.properties.WEBSITE}</a>
                             <hr/>
                             <p>{data.properties.DESCRIPTION}</p>
-                            <Modal />
+                            <Modal  title={data.properties.NAME}/>
                         </Accordion.Content>
                       </Accordion>
                     </Container>
