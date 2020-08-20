@@ -16,6 +16,7 @@ function ModalCloseIcon() {
 
   return (
     <Modal
+      size="tiny"
       closeIcon
       open={open}
       trigger={<Button>Reserve Time</Button>}

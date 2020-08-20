@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import * as Banks from "../data/orlando-food-banks.json";
-import { Accordion, Icon, Grid, Container} from 'semantic-ui-react'
+import { Accordion, Icon, Container} from 'semantic-ui-react'
 import Modal from "./Modal";
+import MapLg from "./MapLg";
 
 export default class AccordionStyled extends Component {
 
@@ -42,6 +43,7 @@ export default class AccordionStyled extends Component {
                         </Accordion.Content>
                       </Accordion>
                     </Container>
+                    
                 )
             })
         )
