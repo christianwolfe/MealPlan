@@ -13,7 +13,7 @@ const GoogMap = () => {
 
   return (
     <GoogleMap
-      defaultZoom={10}
+      defaultZoom={11}
       defaultCenter={{ lat: 28.538336, lng: -81.379234 }}
     >
       {bankData.features.map((bank) => (
@@ -53,7 +53,7 @@ const MapWrapped = withScriptjs(withGoogleMap(GoogMap));
 
 const MapLg = () => {
   return (
-    <div style={{ justifyContent: "center", width: "75vw", height: "45vh" }}>
+    <div style={{ justifyContent: "center", width: "75%", height: "45vh" }}>
       <MapWrapped
         googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_API_KEY}`}
         loadingElement={<div style={{ height: `100%` }} />}
