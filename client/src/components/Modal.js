@@ -1,11 +1,12 @@
 import React from "react";
-import { Button, Header, Icon, Modal } from "semantic-ui-react";
+import { Button, Header, Icon, Modal, Container } from "semantic-ui-react";
 import DateTimePicker from "./DatePicker";
 
 function ModalCloseIcon(props) {
   const [open, setOpen] = React.useState(false);
 
   return (
+    <Container textAlign="center">
     <Modal
       size="tiny"
       closeIcon
@@ -14,7 +15,7 @@ function ModalCloseIcon(props) {
       onClose={() => setOpen(false)}
       onOpen={() => setOpen(true)}
     >
-      <Header icon="archive" content={`Reserve time for ${props.title}`}/>
+      <Header icon="archive" content={`Reserve a time for ${props.title}`}/>
       <Modal.Content>
         <DateTimePicker />
       </Modal.Content>
@@ -24,6 +25,7 @@ function ModalCloseIcon(props) {
         </Button>
       </Modal.Actions>
     </Modal>
+    </Container>
   );
 }
 
