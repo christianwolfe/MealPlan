@@ -1,9 +1,34 @@
-import React from "react";
+import React  from "react";
 import { Button, Header, Icon, Modal, Container } from "semantic-ui-react";
 import DateTimePicker from "./DatePicker";
+import axios from "axios";
+import { useSelector } from "react-redux";
+
 
 function ModalCloseIcon(props) {
   const [open, setOpen] = React.useState(false);
+  const [startDate, setStartDate] = React.useState("");
+  //bring in user data
+  const user = useSelector((state) => state.auth.currentUser);
+  const handleChange = (date) => {
+    setStartDate(date)
+    console.log(startDate);
+  };
+
+ function handleSubmit(e) {
+
+    const resObj = {
+      //id of curr user
+      userId: user._id,
+      location: props.title,
+      lastreservation: startDate
+    }
+    console.log(resObj)
+    axios.post('/api/reserve', resObj)
+        .then(res => console.log(res.data));
+      setOpen(false);
+
+  };
 
   return (
     <Container textAlign="center">
@@ -17,10 +42,10 @@ function ModalCloseIcon(props) {
     >
       <Header icon="archive" content={`Reserve a time for ${props.title}`}/>
       <Modal.Content>
-        <DateTimePicker />
+        <DateTimePicker handleChange = {handleChange} startDate = {startDate}/>
       </Modal.Content>
       <Modal.Actions>
-        <Button color="black" onClick={() => {setOpen(false)}}>
+        <Button color="black" onClick={() => { handleSubmit()}}>
           <Icon name="checkmark" /> Confirm
         </Button>
       </Modal.Actions>

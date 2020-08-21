@@ -4,6 +4,9 @@ import setHours from "date-fns/setHours";
 import setMinutes from "date-fns/setMinutes";
 import getDay from "date-fns/getDay";
 import "react-datepicker/dist/react-datepicker.css";
+import moment from 'moment';
+import axios from 'axios';
+
 
 const isWeekday = (date) => {
   const day = getDay(date);
@@ -11,21 +14,14 @@ const isWeekday = (date) => {
 };
 
 class DateTimePicker extends React.Component {
-  state = {
-    startDate: "",
-  };
 
-  handleChange = (date) => {
-    this.setState({
-      startDate: date,
-    });
-  };
+
 
   render() {
     return (
       <DatePicker
-        selected={this.state.startDate}
-        onChange={this.handleChange}
+        selected={this.props.startDate}
+        onChange={this.props.handleChange}
         showTimeSelect
         dateFormat="Pp"
         timeIntervals={15}
