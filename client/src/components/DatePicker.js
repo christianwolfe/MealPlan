@@ -4,9 +4,6 @@ import setHours from "date-fns/setHours";
 import setMinutes from "date-fns/setMinutes";
 import getDay from "date-fns/getDay";
 import "react-datepicker/dist/react-datepicker.css";
-import moment from 'moment';
-import axios from 'axios';
-
 
 const isWeekday = (date) => {
   const day = getDay(date);
@@ -14,9 +11,6 @@ const isWeekday = (date) => {
 };
 
 class DateTimePicker extends React.Component {
-
-
-
   render() {
     return (
       <DatePicker

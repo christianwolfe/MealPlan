@@ -1,9 +1,8 @@
-import React  from "react";
+import React from "react";
 import { Button, Header, Icon, Modal, Container } from "semantic-ui-react";
 import DateTimePicker from "./DatePicker";
 import axios from "axios";
 import { useSelector } from "react-redux";
-
 
 function ModalCloseIcon(props) {
   const [open, setOpen] = React.useState(false);
@@ -11,45 +10,46 @@ function ModalCloseIcon(props) {
   //bring in user data
   const user = useSelector((state) => state.auth.currentUser);
   const handleChange = (date) => {
-    setStartDate(date)
-    console.log(startDate);
+    setStartDate(date);
   };
 
- function handleSubmit(e) {
-
+  function handleSubmit(e) {
     const resObj = {
       //id of curr user
       userId: user._id,
       location: props.title,
-      lastreservation: startDate
-    }
-    console.log(resObj)
-    axios.post('/api/reserve', resObj)
-        .then(res => console.log(res.data));
-      setOpen(false);
-
-  };
+      lastreservation: startDate,
+    };
+    console.log(resObj);
+    axios.post("/api/reserve", resObj).then((res) => console.log(res.data));
+    setOpen(false);
+  }
 
   return (
     <Container textAlign="center">
-    <Modal
-      size="tiny"
-      closeIcon
-      open={open}
-      trigger={<Button>Reserve Time</Button>}
-      onClose={() => setOpen(false)}
-      onOpen={() => setOpen(true)}
-    >
-      <Header icon="archive" content={`Reserve a time for ${props.title}`}/>
-      <Modal.Content>
-        <DateTimePicker handleChange = {handleChange} startDate = {startDate}/>
-      </Modal.Content>
-      <Modal.Actions>
-        <Button color="black" onClick={() => { handleSubmit()}}>
-          <Icon name="checkmark" /> Confirm
-        </Button>
-      </Modal.Actions>
-    </Modal>
+      <Modal
+        size="tiny"
+        closeIcon
+        open={open}
+        trigger={<Button>Reserve Time</Button>}
+        onClose={() => setOpen(false)}
+        onOpen={() => setOpen(true)}
+      >
+        <Header icon="archive" content={`Reserve a time for ${props.title}`} />
+        <Modal.Content>
+          <DateTimePicker handleChange={handleChange} startDate={startDate} />
+        </Modal.Content>
+        <Modal.Actions>
+          <Button
+            color="black"
+            onClick={() => {
+              handleSubmit();
+            }}
+          >
+            <Icon name="checkmark" /> Confirm
+          </Button>
+        </Modal.Actions>
+      </Modal>
     </Container>
   );
 }
