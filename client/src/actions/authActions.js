@@ -67,6 +67,28 @@ export const loginUser = (data) => async (dispatch) => {
     });
   }
 };
+
+//update user
+export const updateUser = (data) => async (dispatch) => {
+  try {
+    // send request to server side to login user
+    const response = await API.updateUser(data);
+    // dispatch to reducer
+    dispatch({
+      type: LOGIN_SUCCESS,
+      payload: response.data,
+    });
+    // redirect to page
+    history.push("/pageone");
+  } catch (err) {
+    // dispatch get error Action
+    dispatch(getErrors(err.response.data));
+    // dispatch login fail
+    dispatch({
+      type: LOGIN_FAIL,
+    });
+  }
+};
 // Action to load current user
 export const loadUser = () => async (dispatch, getState) => {
   try {
