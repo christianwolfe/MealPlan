@@ -36,6 +36,7 @@ export default class AccordionStyled extends Component {
                         <Accordion.Content active={activeIndex === i}>
                             <p> <Icon name="map pin" />{data.properties.ADDRESS}</p>
                             <p> <Icon name="phone" /> {data.properties.PHONE}</p>
+                            <p> <Icon name="clock outline" /> {data.properties.HOURS}</p>
                             <Icon name="globe" /><a href={data.properties.WEBSITE} target="_blank">{data.properties.WEBSITE}</a>
                             <hr/>
                             <p>{data.properties.DESCRIPTION}</p>
