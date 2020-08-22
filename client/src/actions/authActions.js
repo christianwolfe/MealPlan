@@ -36,7 +36,7 @@ export const registerUser = (data) => async (dispatch) => {
       payload: response.data,
     });
     // redirect to page
-    history.push("/pageone");
+    history.push("/reserve");
   } catch (err) {
     // dispatch get error Action
     dispatch(getErrors(err.response.data));
@@ -57,7 +57,7 @@ export const loginUser = (data) => async (dispatch) => {
       payload: response.data,
     });
     // redirect to page
-    history.push("/pageone");
+    history.push("/reserve");
   } catch (err) {
     // dispatch get error Action
     dispatch(getErrors(err.response.data));
@@ -79,7 +79,7 @@ export const updateUser = (data) => async (dispatch) => {
       payload: response.data,
     });
     // redirect to page
-    history.push("/pageone");
+    history.push("/reserve");
   } catch (err) {
     // dispatch get error Action
     dispatch(getErrors(err.response.data));
