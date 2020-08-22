@@ -13,7 +13,7 @@ const Login = (props) => {
 
   useEffect(() => {
     if (isAuthenticated) {
-      props.history.push("/pageone");
+      props.history.push("/reserve");
     }
   });
 
