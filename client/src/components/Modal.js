@@ -9,6 +9,7 @@ function ModalCloseIcon(props) {
   const [startDate, setStartDate] = React.useState("");
   //bring in user data
   const user = useSelector((state) => state.auth.currentUser);
+  // console.log(user.reservations);
   const handleChange = (date) => {
     setStartDate(date);
   };

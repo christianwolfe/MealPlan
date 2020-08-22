@@ -2,6 +2,7 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const config = require("../config");
 const User = require("../models/user");
+const Reservation = require("../models/reservations");
 
 module.exports = {
   async register(req, res) {
@@ -144,4 +145,15 @@ module.exports = {
       throw err;
     }
   },
+
+  async getRes(req, res) {
+    try {
+      console.log(req);
+      const reservation = await Reservation.findById(req.id);
+      res.json(reservation);
+    } catch(err) {
+      throw err;
+    }
+  }
+
 };

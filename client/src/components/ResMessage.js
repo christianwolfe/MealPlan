@@ -1,7 +1,24 @@
 import React from "react";
-import { Message } from "semantic-ui-react";
+import { Message, Container } from "semantic-ui-react";
+import API from "../utils/API";
+import { useSelector } from "react-redux";
 
-const MessageExampleSuccess = () => (
+
+const MessageExampleSuccess = () => {
+  const user = useSelector((state) => state.auth.currentUser);
+  console.log(user.reservations);
+
+  const resArray = user.reservations;
+  const currentRes = API.loadRes('ObjectId("5f403dabd1d0f3653f77f399")')
+  console.log(currentRes);
+
+  // for(i = 0; i < resArray.length; i++) {
+
+  // }
+
+  
+
+  return(
   <Container textAlign="center">
     <Message
       success
@@ -9,6 +26,6 @@ const MessageExampleSuccess = () => (
       content="You may view your reservation on the user dashboard"
     />
   </Container>
-);
+  )};
 
 export default MessageExampleSuccess;

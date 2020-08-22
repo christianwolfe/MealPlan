@@ -12,6 +12,6 @@ export default {
     return axios.get("/auth/user", headers);
   },
   loadRes(headers) {
-    return axios.get("/auth/user", headers);
+    return axios.get("/api/reserve", headers);
   },
 };
