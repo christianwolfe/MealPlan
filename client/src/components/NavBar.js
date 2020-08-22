@@ -37,8 +37,8 @@ export const NavBar = () => {
         Home
       </Link>
       {isAuthenticated ? (
-        <Link to="/pageone" className="item">
-          Page One
+        <Link to="/reserve" className="item">
+          Reserve
         </Link>
       ) : (
         ""

@@ -1,7 +1,7 @@
 import React from "react";
-import { Message } from "semantic-ui-react";
+import { Message, Container } from "semantic-ui-react";
 
-const MessageExampleSuccess = () => (
+const MessageSuccess = () => (
   <Container textAlign="center">
     <Message
       success
@@ -11,4 +11,4 @@ const MessageExampleSuccess = () => (
   </Container>
 );
 
-export default MessageExampleSuccess;
+export default MessageSuccess;
