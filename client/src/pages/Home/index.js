@@ -26,16 +26,14 @@ export const Home = () => {
   return (
       <Container>
         <Message className="message-container" size="huge" secondary="true">
-          <Header size="huge"> Home</Header>
-          <p style={{ marginBottom: "5px" }}>
-            This is a Boiler Plate MERN application with authentication using JSON
-            Web Tokens.
-        </p>
+          <Header size="huge">Welcome to MealPlan</Header>
           <p style={{ margin: "5px 0 25px" }}>
-            This APP was design to be used as a starting point for any developer
-            looking to integrate authentication with a MERN application.
+            Discover a new way to gain access to meal and food pantries in your community.
         </p>
           <Link to="/login">{showLoginBtn()}</Link>
+          <p>
+            View the map for partipating locations.
+          </p>
         </Message>
 
         <MapLg />
