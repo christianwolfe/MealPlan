@@ -6,7 +6,20 @@ import Maps from "../../components/Maps";
 
 
 export const PageOne = () => {
-
+  
+  // function handleSubmit(e) {
+  //   const resObj = {
+  //     //id of curr user
+  //     userId: user._id,
+  //     location: props.title,
+  //     lastreservation: startDate,
+  //   };
+  //   console.log(resObj);
+  //   axios.post("/api/reserve", resObj).then((res) => 
+  //   //render message component
+  //   console.log(res.data));
+  //   setOpen(false);
+  // }
 
   return (
     <Container>
