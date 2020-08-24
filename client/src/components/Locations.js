@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import * as Banks from "../data/orlando-food-banks.json";
-import { Accordion, Icon, Container } from "semantic-ui-react";
+import { Accordion, Icon, Container, Message } from "semantic-ui-react";
 import Modal from "./Modal";
 
 export default class AccordionStyled extends Component {
@@ -14,63 +14,65 @@ export default class AccordionStyled extends Component {
   };
 
   msgStatus = (status) => {
-    this.setState({ message: status })
-  }
-
+    this.setState({ message: status });
+  };
 
   render() {
- 
     const { activeIndex } = this.state;
-    return(
-    <>
-      {this.state.message ? <p>Your reservation has been successfully added.</p> : ""}
-      
-       { this.state.results.map((data, i) => {
-      return (
-      <Container>
-
-
-        <Accordion styled fluid>
-          <Accordion.Title
-            active={activeIndex === i}
-            index={i}
-            onClick={this.handleClick}
-          >
-            <Icon name="dropdown" />
-            {data.properties.NAME}
-          </Accordion.Title>
-          <Accordion.Content active={activeIndex === i}>
-            <p>
-              {" "}
-              <Icon name="map pin" />
-              {data.properties.ADDRESS}
-            </p>
-            <p>
-              {" "}
-              <Icon name="phone" /> {data.properties.PHONE}
-            </p>
-            <p>
-              {" "}
-              <Icon name="clock outline" /> {data.properties.HOURS}
-            </p>
-            <Icon name="globe" />
-            <a
-              href={data.properties.WEBSITE}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {data.properties.WEBSITE}
-            </a>
-            <hr />
-            <p>{data.properties.DESCRIPTION}</p>
-            <Modal title={data.properties.NAME} message={this.msgStatus} />
-          </Accordion.Content>
-        </Accordion>
-      </Container>
-      );
-      
-    })};
-    </>
+    return (
+      <>
+        {this.state.message ? (
+          <Message>Your reservation has been successfully added.</Message>
+        ) : (
+          ""
+        )}
+        {this.state.results.map((data, i) => {
+          return (
+            <Container>
+              <Accordion styled fluid>
+                <Accordion.Title
+                  active={activeIndex === i}
+                  index={i}
+                  onClick={this.handleClick}
+                >
+                  <Icon name="dropdown" />
+                  {data.properties.NAME}
+                </Accordion.Title>
+                <Accordion.Content active={activeIndex === i}>
+                  <p>
+                    {" "}
+                    <Icon name="map pin" />
+                    {data.properties.ADDRESS}
+                  </p>
+                  <p>
+                    {" "}
+                    <Icon name="phone" /> {data.properties.PHONE}
+                  </p>
+                  <p>
+                    {" "}
+                    <Icon name="clock outline" /> {data.properties.HOURS}
+                  </p>
+                  <Icon name="globe" />
+                  <a
+                    href={data.properties.WEBSITE}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {data.properties.WEBSITE}
+                  </a>
+                  <hr />
+                  <p>{data.properties.DESCRIPTION}</p>
+                  <Modal
+                    title={data.properties.NAME}
+                    message={this.msgStatus}
+                  />
+                </Accordion.Content>
+              </Accordion>
+            </Container>
+          );
+        })}
+        ;
+      </>
     );
   }
 }
