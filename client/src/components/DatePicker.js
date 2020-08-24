@@ -17,7 +17,7 @@ class DateTimePicker extends React.Component {
         selected={this.props.startDate}
         onChange={this.props.handleChange}
         showTimeSelect
-        dateFormat="Pp"
+        dateFormat="MMMM d, yyyy h:mm aa"
         timeIntervals={15}
         minTime={setHours(setMinutes(new Date(), 0), 9)}
         maxTime={setHours(setMinutes(new Date(), 0), 17)}
