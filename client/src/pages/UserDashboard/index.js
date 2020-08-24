@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Header, Message, Container } from "semantic-ui-react";
 import { useSelector } from "react-redux";
-import ResMessage from "../../components/ResMessage";
 import API from "../../utils/API";
 
 export const UserDashboard = () => {
@@ -12,22 +11,19 @@ export const UserDashboard = () => {
   console.log(user.reservations);
 
   //onload / wait for component to mount
-    useEffect(() => {
+  useEffect(() => {
     API.loadRes(user).then((res) => {
       //state of reservations will now be updated to the response
-      setReservations(res.data.reservations)
-
-      console.log(reservations)
-
-      
-
+      setReservations(res.data.reservations);
+      console.log(reservations);
     });
-  },[]);
+  }, []);
 
-
-  const resHistory = reservations.map((array) => 
-  <li key={array.location}>{array.location}, {array.lastreservation}</li>)
-
+  const resHistory = reservations.map((array) => (
+    <li key={array.location}>
+      {array.location}, {array.lastreservation}
+    </li>
+  ));
 
   return (
     <Container>
@@ -35,11 +31,8 @@ export const UserDashboard = () => {
         <Header size="huge"> User Dashboard </Header>
         <p>Welcome {user ? user.email : ""}</p>
         <p>View your current reservation below</p>
-        
-        <ResMessage />
       </Message>
       <Message>{resHistory}</Message>
-   
     </Container>
   );
 };
