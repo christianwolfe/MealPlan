@@ -7,6 +7,6 @@ const apiController = require("../controllers/apiController");
 router.post("/register", authController.register);
 router.post("/login", authController.login);
 router.get("/user", auth, authController.getUser);
-router.get("/reserve", apiController.getRes);
+router.get("/user", apiController.getRes);
 
 module.exports = router;

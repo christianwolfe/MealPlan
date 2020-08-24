@@ -3,18 +3,6 @@ const User = require("../../models/user");
 const Reservation = require("../../models/reservations");
 
 
-
-function getRes(req, res) {
-  try {
-    console.log(req);
-    const reservation = Reservation.findById(req.id);
-    res.json(reservation);
-  } catch(err) {
-    throw err;
-  }
-};
-
-
 router.post("/reserve", (req, res) => {
   const userId = req.body.userId;
   console.log(userId);
@@ -41,10 +29,17 @@ router.post("/reserve", (req, res) => {
 //   }
 // }
 
-router.get("/reserve", (req, res) => {
-  console.log(req);
-  Reservation.findById(req._id)
+router.get("/reserve/:email", (req, res) => {
+
+  console.log(req.params.email);
+
+  //this is the current user
+
+  User.findOne({email: req.params.email})
+  //populate the array called reservations
+    .populate("reservations")
     .then(( reservations ) => {
+      console.log(reservations);
       res.json(reservations);
     })
 
@@ -52,6 +47,18 @@ router.get("/reserve", (req, res) => {
       res.json(err);
     });
 });
+
+// router.get("/reserve", (req, res) => {
+//   console.log(req);
+//   Reservation.findOne({})
+//     .then(( reservations ) => {
+//       res.json(reservations);
+//     })
+
+//     .catch(err => {
+//       res.json(err);
+//     });
+// });
 
 
 

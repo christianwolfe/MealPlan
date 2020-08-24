@@ -6,7 +6,7 @@ const path = require("path");
 // Routes for authentication
 router.use("/auth", authRoutes);
 
-
+//api routes
 router.use("/api", apiRoutes);
 
 // If no API routes are hit, send the React app

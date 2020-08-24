@@ -8,7 +8,6 @@ const ReservationSchema = new Schema({
   },
   lastreservation: {
     type: String,
-
   }
 });
 
