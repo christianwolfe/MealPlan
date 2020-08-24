@@ -11,7 +11,8 @@ export default {
   loadUser(headers) {
     return axios.get("/auth/user", headers);
   },
-  loadRes(headers) {
-    return axios.get("/api/reserve", headers);
+  loadRes(user) {
+    console.log("User is " , user.email)
+    return axios.get("/api/reserve/" + user.email );
   },
 };
