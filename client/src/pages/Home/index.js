@@ -38,7 +38,7 @@ export const Home = () => {
 
   return (
     <Container>
-      <Message className="message-container" size="huge" secondary="true">
+      <Message className="message-container" size="huge" secondary="true" style={{marginTop: "10px", marginBottom: "10px"}}>
         <Header size="huge" style={{ marginBottom: "40px" }}>
           Welcome to MealPlan
         </Header>

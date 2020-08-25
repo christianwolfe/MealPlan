@@ -23,7 +23,7 @@ export const UserDashboard = () => {
 
   return (
     <Container>
-      <Message className="message-container" size="huge" secondary="true">
+      <Message className="message-container" size="huge" secondary="true" style={{marginTop: "10px"}}>
         <Header size="huge"> User Dashboard </Header>
         <p>Welcome {user ? user.email : ""}</p>
         <p>View your current reservation below</p>
