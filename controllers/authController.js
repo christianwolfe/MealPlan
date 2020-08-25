@@ -132,6 +132,7 @@ module.exports = {
       console.log(err);
     }
   },
+
   // get user information
   async getUser(req, res) {
     try {
@@ -151,9 +152,8 @@ module.exports = {
       console.log(req);
       const reservation = await Reservation.findById(req.id);
       res.json(reservation);
-    } catch(err) {
+    } catch (err) {
       throw err;
     }
-  }
-
+  },
 };

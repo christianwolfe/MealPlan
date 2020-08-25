@@ -22,7 +22,12 @@ export default class AccordionStyled extends Component {
     return (
       <>
         {this.state.message ? (
-          <Message>Your reservation has been successfully added.</Message>
+          <Message
+            success
+            header="Your reservation has been successfully added."
+            content="View your reservation in the user profile."
+            style={{ textAlignVertical: "center", textAlign: "center" }}
+          />
         ) : (
           ""
         )}
@@ -71,7 +76,6 @@ export default class AccordionStyled extends Component {
             </Container>
           );
         })}
-        ;
       </>
     );
   }

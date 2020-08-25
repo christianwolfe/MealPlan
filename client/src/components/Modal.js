@@ -48,7 +48,8 @@ function ModalCloseIcon(props) {
         </Modal.Content>
         <Modal.Actions>
           <Button
-            color="black"
+            inverted
+            color="green"
             onClick={() => {
               handleSubmit();
             }}
