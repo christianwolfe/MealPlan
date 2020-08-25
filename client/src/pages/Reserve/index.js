@@ -10,13 +10,13 @@ export const Reserve = () => {
         className="message-container"
         size="huge"
         secondary="true"
-        style={{ margin: "10px" }}
+        style={{ marginTop: "10px", marginBottom: "10px" }}
       >
         <Header size="huge"> MealPlan </Header>
         <p>Select a location and reserve a time</p>
         <p></p>
       </Message>
-      <Maps />
+      <Maps style={{marginBottom: "10px"}}/>
       <Locations />
     </Container>
   );

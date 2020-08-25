@@ -5,7 +5,7 @@ export const NoMatch = () => {
   // Show 404 message if url don't match any routes
   return (
     <Container>
-      <Message className="message-container" size="huge" secondary="true">
+      <Message className="message-container" size="huge" secondary="true" style={{marginTop: "10px"}}>
         <Header size="huge"> 404 Page Not Found </Header>
         <h1>
           <span role="img" aria-label="Face With Rolling Eyes Emoji">

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import * as Banks from "../data/orlando-food-banks.json";
-import { Accordion, Icon, Container, Message } from "semantic-ui-react";
+import { Accordion, Icon, Container, Message, Divider } from "semantic-ui-react";
 import Modal from "./Modal";
 
 export default class AccordionStyled extends Component {
@@ -33,8 +33,8 @@ export default class AccordionStyled extends Component {
         )}
         {this.state.results.map((data, i) => {
           return (
-            <Container>
-              <Accordion styled fluid>
+            <Container> 
+              <Accordion styled fluid style={{marginTop: "4px"}}>
                 <Accordion.Title
                   active={activeIndex === i}
                   index={i}
@@ -74,8 +74,10 @@ export default class AccordionStyled extends Component {
                 </Accordion.Content>
               </Accordion>
             </Container>
+          
           );
         })}
+         <Divider hidden />
       </>
     );
   }
