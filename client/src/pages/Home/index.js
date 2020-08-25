@@ -23,24 +23,40 @@ export const Home = () => {
     }
   };
 
+  const showRegBtn = () => {
+    if (!isAuthenticated) {
+      return (
+        <Button color="black" animated secondary>
+          <Button.Content visible>Register</Button.Content>
+          <Button.Content hidden>
+            <Icon name="arrow right" />
+          </Button.Content>
+        </Button>
+      );
+    }
+  };
+
   return (
-      <Container>
-        <Message className="message-container" size="huge" secondary="true">
-          <Header size="huge">Welcome to MealPlan</Header>
-          <p style={{ margin: "5px 0 25px" }}>
-            Discover a new way to gain access to meal and food pantries in your community.
+    <Container>
+      <Message className="message-container" size="huge" secondary="true">
+        <Header size="huge" style={{ marginBottom: "40px" }}>
+          Welcome to MealPlan
+        </Header>
+        <p>
+          Discover a new way to gain access to meal and food pantries in your
+          community.
         </p>
-          <Link to="/login">{showLoginBtn()}</Link>
-          <p>
-            View the map for partipating locations.
-          </p>
-        </Message>
+        <p>View the map for partipating locations.</p>
+        <p>
+          Log in or register to make a reservation for our
+          locations below.
+        </p>
+        <Link to="/login">{showLoginBtn()}</Link>
+        <Link to="/register">{showRegBtn()}</Link>
+      </Message>
 
-        <MapLg />
-      </Container>
-      
-
-  
+      <MapLg />
+    </Container>
   );
 };
 

@@ -5,17 +5,13 @@ import API from "../../utils/API";
 
 export const UserDashboard = () => {
   // access to the currentUser property from the auth reducer state
-
   const user = useSelector((state) => state.auth.currentUser);
   const [reservations, setReservations] = useState([]);
-  console.log(user.reservations);
-
   //onload / wait for component to mount
   useEffect(() => {
     API.loadRes(user).then((res) => {
       //state of reservations will now be updated to the response
       setReservations(res.data.reservations);
-      console.log(reservations);
     });
   }, []);
 
@@ -32,7 +28,9 @@ export const UserDashboard = () => {
         <p>Welcome {user ? user.email : ""}</p>
         <p>View your current reservation below</p>
       </Message>
-      <Message>{resHistory}</Message>
+      <Message size="large">
+        <Header size="huge" style={{ textAlignVertical: "center", textAlign: "center", marginBottom: "25px" }}>Reservations</Header>
+        {resHistory}</Message>
     </Container>
   );
 };

@@ -8,7 +8,7 @@ const ReservationSchema = new Schema({
   },
   lastreservation: {
     type: String,
-  }
+  },
 });
 
 module.exports = Reservation = mongoose.model("Reservation", ReservationSchema);

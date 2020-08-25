@@ -29,12 +29,9 @@ const UserSchema = new Schema({
   reservations: [
     {
       type: Schema.Types.ObjectId,
-      ref: "Reservation"
-    }
-  ]
-
-  // eslint-disable-next-line indent
-  });
-
+      ref: "Reservation",
+    },
+  ],
+});
 
 module.exports = User = mongoose.model("user", UserSchema);
