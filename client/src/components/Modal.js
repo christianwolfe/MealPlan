@@ -6,25 +6,28 @@ import { useSelector } from "react-redux";
 // import MessageSuccess from "./ResMessage"
 
 function ModalCloseIcon(props) {
-  console.log(props);
   const [open, setOpen] = React.useState(false);
   const [startDate, setStartDate] = React.useState("");
   //bring in user data
+
   const user = useSelector((state) => state.auth.currentUser);
-  // console.log(user.reservations);
+  console.log(user);
+
+  
   const handleChange = (date) => {
     setStartDate(date);
   };
 
-  function handleSubmit(e) {
+  function handleSubmit() {
     const resObj = {
       //id of curr user
       userId: user._id,
       location: props.title,
-      lastreservation: startDate.toString(),
+      lastreservation: startDate.toString()
     };
-    console.log(resObj);
-    axios.post("/api/reserve", resObj).then((res) =>
+   
+
+    axios.post("/api/reserve", resObj).then((res) => 
       //render message component
       console.log(res.data)
     );
