@@ -11,11 +11,10 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// serve up static assets
+// serve static assets
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "./client/build")));
 }
-
 // connect to Mongo DB
 mongoose
   .connect(config.MONGO_URI, {
@@ -30,7 +29,7 @@ mongoose
 // use routes
 app.use(routes);
 
-// check for "production" enviroment and set port
+
 const PORT = process.env.PORT || 3001;
 
 // start server
